@@ -46,7 +46,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    # 'whitenoise.middleware.WhiteNoiseMiddleware',   # Somente será necessário no momento
+    'whitenoise.middleware.WhiteNoiseMiddleware',   # Somente será necessário no momento
                                                       # de publicar (ambiente de produção)
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
